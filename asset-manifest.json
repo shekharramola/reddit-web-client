@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reddit-web-client/static/css/main.8808fce7.chunk.css",
+    "main.js": "/reddit-web-client/static/js/main.ba468ea5.chunk.js",
+    "main.js.map": "/reddit-web-client/static/js/main.ba468ea5.chunk.js.map",
+    "runtime-main.js": "/reddit-web-client/static/js/runtime-main.245d4ff7.js",
+    "runtime-main.js.map": "/reddit-web-client/static/js/runtime-main.245d4ff7.js.map",
+    "static/js/2.6dfc7ee7.chunk.js": "/reddit-web-client/static/js/2.6dfc7ee7.chunk.js",
+    "static/js/2.6dfc7ee7.chunk.js.map": "/reddit-web-client/static/js/2.6dfc7ee7.chunk.js.map",
+    "index.html": "/reddit-web-client/index.html",
+    "precache-manifest.c2b7aa9821f361cd39bc1649c4142fe2.js": "/reddit-web-client/precache-manifest.c2b7aa9821f361cd39bc1649c4142fe2.js",
+    "service-worker.js": "/reddit-web-client/service-worker.js",
+    "static/css/main.8808fce7.chunk.css.map": "/reddit-web-client/static/css/main.8808fce7.chunk.css.map",
+    "static/js/2.6dfc7ee7.chunk.js.LICENSE": "/reddit-web-client/static/js/2.6dfc7ee7.chunk.js.LICENSE",
+    "static/media/vector.png": "/reddit-web-client/static/media/vector.b208df44.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.245d4ff7.js",
+    "static/js/2.6dfc7ee7.chunk.js",
+    "static/css/main.8808fce7.chunk.css",
+    "static/js/main.ba468ea5.chunk.js"
+  ]
+}
