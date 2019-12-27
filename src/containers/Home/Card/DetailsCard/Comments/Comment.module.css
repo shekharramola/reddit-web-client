@@ -1,0 +1,16 @@
+
+
+.CommentsArea{
+    padding-left: 20px;
+}
+
+.Comment{ 
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  line-height: 20px;
+  }
+
+  .CommentBody {
+
+    font-size: 13px;
+  }

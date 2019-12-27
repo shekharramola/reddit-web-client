@@ -1,0 +1,25 @@
+/* .SidebarNavigationItems{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+    border: 1px solid #ededed;
+} */
+
+.Sidebar {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2px 10px;
+        /* border: 1px solid #ededed; */
+
+        width: 24%;
+    padding: 100px 50px 0px;
+
+      
+      
+}

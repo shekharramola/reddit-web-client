@@ -1,0 +1,103 @@
+.CardContainer{
+    display: flex;
+  flex-direction:row;
+  max-width: 100%;
+  min-height: 145px;
+  border-bottom: 1px solid #eee;
+}
+
+.ContentArea{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+    border-right: 1px solid #eee;
+}
+
+.DetailsRow{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+      flex-direction: row;
+      justify-content: space-between;
+}
+
+.ActionsBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.54);
+  
+}
+
+
+.ActionItem {
+    margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #000;
+}
+
+  .ActionItem :hover {
+    color:orange;
+  }
+
+.ContentRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.ContentDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContentTitle{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    
+}
+
+
+.ContentTitle:hover {
+    color: orange;
+  }
+
+.ContentURL{
+    font-size: 11px;
+}
+
+.ExpandableContent{
+    display: flex;
+    min-height: 143px;
+    width: 100%;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+    margin-top: 5px;
+    word-break: break-word;
+  
+    
+}
+
+
+.ExpandableContent a {
+    color: orange;
+    text-decoration: none;
+  }
+
+  .ExpandableContent img {
+    max-width: 100%;
+  }
+
+  .ExpandableContent video {
+    max-width: 100%;
+  }

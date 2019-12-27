@@ -1,0 +1,131 @@
+.CardContainer{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    min-height: 145px;
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.ContentArea {
+    display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 90%;
+  border-right: 1px solid #eee;
+}
+
+.DetailedRow {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+      flex-direction: row;
+      justify-content: space-between;
+}
+
+.ActionsBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:  15px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.ActionItem {
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #000;
+}
+
+.ContentRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.ContentDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  
+}
+
+.ContentTitle:hover{
+color: orange;
+cursor: pointer;
+}
+
+.ContentImage {
+  width: 120px;
+  height: 72px;
+}
+
+.ContentNoImage {
+  width: 120px;
+  min-width: 120px;
+  height: 35px;
+  min-height: 35px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+
+.ExpandableContent {
+  display: flex;
+  min-height: 143px;
+  width: 100%;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  margin-top: 5px;
+  word-break: break-word;
+/* 
+  & a {
+    color: ${props => props.theme.colors.orange};
+    text-decoration: none;
+  }
+
+  & img {
+    max-width: 100%;
+  }
+
+  & video {
+    max-width: 100%;
+  } */
+}
+
+.VotingArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  background-color: #f3f6f8;
+}
+
+.TitleFlairText{
+  font-size: 12px;
+  margin-right: 8px;
+  background-color: #eee;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+
+ .CurrentPoint {
+  margin: 10px 0;
+} 

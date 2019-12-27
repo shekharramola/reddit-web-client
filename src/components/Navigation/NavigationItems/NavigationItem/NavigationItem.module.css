@@ -1,0 +1,25 @@
+
+.Anchor{
+    text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  line-height: 54px;
+  border-bottom: 4px solid transparent;
+  height: 100%;
+  transform: translateY(8%);
+ 
+}
+
+
+.Anchor:hover{
+border-bottom: 4px solid gray;
+}
+
+
+ .Active{
+
+
+border-image-source: linear-gradient(to left, rgb(255, 45, 85), rgb(255, 69, 0));
+border-image-slice: 1;
+}
+

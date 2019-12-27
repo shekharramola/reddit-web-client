@@ -1,0 +1,35 @@
+.ActionWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    justify-content: space-evenly;
+}
+
+.Profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Userinfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+a{
+    font-size: 21px;
+   color: grey; 
+}
+
+.Name {
+    font-size: 15px;
+  line-height: 2em;
+}
+.Email {
+    font-size: 12px;
+  color: #8a8a8a;
+}

@@ -1,0 +1,17 @@
+
+
+
+.Information {
+    font-size: 11px;
+}
+
+.PostSubreddit{
+    cursor: pointer;
+  font-weight: 500;
+
+  
+}
+
+.PostSubreddit:hover {
+    color: orange;
+  }

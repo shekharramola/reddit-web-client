@@ -1,0 +1,29 @@
+.Button {
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    line-height: 2;
+    border-radius: 6px;
+}
+
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Success {
+    background-color: #5C9210;
+
+}
+
+.Danger {
+    background-image:linear-gradient(to left, rgb(255, 45, 85), rgb(255, 69, 0));
+    color: rgb(255, 255, 255);
+}

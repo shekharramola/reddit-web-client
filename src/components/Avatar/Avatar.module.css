@@ -1,0 +1,33 @@
+
+
+.Figure{
+    display: block;
+    width:100%;
+  height: 50%;
+  border-radius: 100%;
+  overflow: hidden;
+  color: #fff;
+  background-color:#ccc;
+  margin: 0;
+}
+
+.Image{
+    width: 36px;
+    height: 36px;
+}
+
+
+  /* ${ifProp('innerText', css`
+    padding: 11px;
+    font-size: 14px;
+  `)}
+
+  ${ifProp('inlineBlock', css`
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  `)}
+
+  & > img {
+    width: ${prop('width', DEFAULT_SIZE)}px;
+  } */

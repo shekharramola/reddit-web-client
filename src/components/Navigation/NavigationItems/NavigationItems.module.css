@@ -1,0 +1,27 @@
+.NavigationItems {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    min-width: 350px;
+    height: 59px;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: 25%;
+}
+
+
+.SidebarNavigationItems{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    min-width: 350px;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin-right: auto;
+}
+

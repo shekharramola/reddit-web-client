@@ -1,0 +1,21 @@
+.Flex{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    align-items: flex-start;
+}
+
+.Image {
+    width: 100%;
+    height:100vh;
+}
+
+ .Item1 {
+    flex-grow: 6;
+    width: 60%;
+} 
+
+.Item2 {
+    flex-grow: 6;
+    width: 40%;
+} 

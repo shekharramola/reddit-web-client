@@ -1,0 +1,24 @@
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+
+
+export const ON_SORT_CHANGE_START = 'ON_SORT_CHANGE_START';
+export const ON_SORT_CHANGE_SUCCESS = 'ON_SORT_CHANGE_SUCCESS';
+export const ON_SORT_CHANGE_FAIL = 'ON_SORT_CHANGE_FAIL';
+export const EXPAND_ITEM_REQUEST = 'EXPAND_ITEM_REQUEST';
+
+
+
+export const VOTE_START = 'VOTE_START';
+
+export const VOTE_SUCCESS = 'VOTE_SUCCESS';
+
+export const VOTE_FAIL = 'VOTE_FAIL';
+
+export const SET_MODAL_ITEM_REQUEST = 'SET_MODAL_ITEM_REQUEST';
+
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+export const FETCH_COMMENT_SUCCESS = 'FETCH_COMMENT_SUCCESS';

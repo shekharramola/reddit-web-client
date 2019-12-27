@@ -1,0 +1,74 @@
+.TopbarWrapper{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+
+
+
+.Leftside {
+  font-size: 26px;
+  align-content: center;
+  display: flex;
+}
+
+.svg {
+  margin-right: 20px;
+}
+
+
+.SubRedditTitle {
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: #83ffe3;
+  padding: 7px 9px;
+  border-radius: 5px;
+}
+
+.Rightside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+.SelectboxWrapper{
+   width:398px; 
+} 
+
+.selectBox{
+  -webkit-appearance: none;
+  padding: 5px 24px 5px 10px;
+  font-size: 14px;
+  background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_arrow_drop_down_48px-512.png) no-repeat calc(100% - 3px);
+  background-size: 22px;
+  border: none;
+}
+
+.Filter {
+  padding-top: 8px;
+}
+
+.FilterItem {
+  margin-right: 0;
+
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  color:  '#000';
+
+  
+}
+
+.FilterItem:hover {
+  
+  background-image:linear-gradient(to left, rgb(255, 45, 85), rgb(255, 69, 0));
+  color: rgb(255, 255, 255);
+
+}
